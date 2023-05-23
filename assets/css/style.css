@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../imagens/fundo2.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+img {
+    width: 24px;
+    height: auto;
+}
+
+
+
+.bio a {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color:rgb(47, 46, 46);
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-left: 8px solid #4069d8;
+    font-size: 1rem;
+    font-family: 'montserrat-medium';
+    color: #FFF;
+
+}
+
+.bio a:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+h2 {
+    color: #4069d8;
+    font-size: 1.7rem;
+    font-family: 'montserrat-black';
+    margin-bottom: 5px;
+    line-height: 1.7rem;
+}
+
+.bio span {
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'montserrat-medium';
+    letter-spacing: 10px;
+    margin-top: 0;
+
+}
+p {
+    margin-top: 5px;
+    font-family: 'montserrat-medium';
+    color: #D9D9D9;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+
+.foto {
+    background-image: url('../imagens/fofo-bio.jpg');
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #4069d8;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+footer h3 {
+    font-size: 1rem;
+    color: #D9D9D9;
+}
+#span-footer {
+    color: #D9D9D9;
+    font-style: italic;
+}
+
+#span-footer:hover {
+    color: #4069d8;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Esse é um arquivo CSS para normalizar o seu site em todos os navegadores
+como se fosse uma configuração padrão */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+      font-size: 100%;
+      font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+  }
+  html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--cor-cinza-escuro);
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: var(--cor-cinza-escuro);
+    scroll-behavior: smooth;
+  }
+  a,img,svg,button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+  }
+  a {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  img {
+    border-style: none;
+  }
+  button {
+    font-family: inherit;
+    line-height: 1;
+    margin: 0;
+    -moz-appearance: none !important;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    cursor: pointer;
+  }
+  button * {
+    pointer-events: none;
+  }
+  input {
+    font-family: inherit;
+    line-height: 1;
+    -moz-appearance: none !important;
+    overflow: visible;
+  }
+  textarea {
+    font-family: inherit;
+    line-height: 1;
+    -moz-appearance: none !important;
+    overflow: auto;
+  }
+  [type="button"] {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner {
+    border-style: none;
+  }
+  [hidden] {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
