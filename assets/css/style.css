@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('../imagens/fundo2.svg');
+    background-image: url('../imagens/fundo-mobile.svg');
     background-position: center;
     background-size: cover;
 }
